@@ -1,0 +1,50 @@
+.traffic {
+  box-sizing: border-box;
+  width: 100px;
+  height: 320px;
+  margin: 100px auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(56, 56, 56);
+}
+
+.circle {
+  width: 90px;
+  height: 90px;
+  border: 2px solid black;
+  border-radius: 100px;
+}
+
+.circle_top {
+  background: rgb(150, 0, 0);
+}
+
+.circle_center {
+  background: rgb(134, 134, 0);
+}
+
+.circle_bottom {
+  background: rgb(0, 65, 0);
+}
+
+.circle_top.active {
+  background: red;
+  border: 2px solid red;
+  box-shadow: 2px 2px 10px red, -2px -2px 10px red;
+}
+
+.circle_center.active {
+  background: yellow;
+  border: 2px solid yellow;
+  box-shadow: 2px 2px 10px yellow, -2px -2px 10px yellow;
+}
+
+.circle_bottom.active {
+  background: rgb(0, 201, 0);
+  border: 2px solid rgb(0, 201, 0);
+  box-shadow: 2px 2px 10px rgb(0, 201, 0), -2px -2px 10px rgb(0, 201, 0);
+}

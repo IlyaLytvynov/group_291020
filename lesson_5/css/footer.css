@@ -1,0 +1,7 @@
+.global-footer {
+  background: var(--footer-bg-color);
+  height: 137px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

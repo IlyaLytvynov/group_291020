@@ -1,0 +1,23 @@
+.custom-checkbox {
+  display: inline-block;
+}
+.custom-checkbox__native-input {
+  display: none;
+}
+
+.custom-checkbox__label {
+  padding: 20px;
+  text-align: center;
+  width: 194px;
+  height: 60px;
+  line-height: 60px;
+  border: 1px solid #16181f;
+  background: #16181f;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.custom-checkbox__native-input:checked + .custom-checkbox__label {
+  box-shadow: 0 0 0px 7px #ff547787;
+  border-color: #b02342;
+}

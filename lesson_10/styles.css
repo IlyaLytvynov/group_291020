@@ -1,0 +1,41 @@
+.myBtn {
+  background: aqua;
+  padding: 20px;
+  border: 2px solid transparent;
+}
+
+.myBtn.active {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all;
+}
+
+.modal.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__content {
+  max-width: 550px;
+  width: 100%;
+  min-height: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}

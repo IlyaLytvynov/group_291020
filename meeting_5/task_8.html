@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button class="lamp">TOGGLE</button>
+    <script>
+      const getRandomNumber = (maxValue = 256) => {
+        const randomNumber = Math.floor(Math.random() * maxValue);
+        return randomNumber;
+      };
+      const getRandomColor = () =>
+        `rgb(${getRandomNumber()}, ${getRandomNumber()}, ${getRandomNumber()})`; // arrow function
+
+      const lamp = document.querySelector('.lamp');
+      lamp.addEventListener('click', () => {
+        lamp.style.backgroundColor = getRandomColor();
+      });
+    </script>
+  </body>
+</html>

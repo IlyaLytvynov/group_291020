@@ -1,0 +1,36 @@
+.add-comment-form {
+  box-sizing: border-box;
+  max-width: 450px;
+  margin: 0 auto;
+  border: 2px solid #b4b4b4;
+  border-radius: 5px;
+  padding: 20px;
+  &__native-input {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    border: 2px solid #579e8f;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  &__field {
+    margin-top: 20px;
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+  &__btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    &_submit {
+      background-color: green;
+    }
+    &_clear {
+      background-color: red;
+    }
+    &_upload {
+      background-color: blue;
+    }
+  }
+}

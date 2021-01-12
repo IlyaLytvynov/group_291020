@@ -1,0 +1,17 @@
+.select {
+  position: relative;
+}
+
+.select__list {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(100%);
+  left: 0;
+  background-color: #fff;
+  display: none;
+}
+
+.select.active .select__list {
+  display: inherit;
+  z-index: 10;
+}

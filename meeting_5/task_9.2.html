@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button class="control">On/off</button>
+    <script>
+      const getRandomNumber = (maxValue = 256) => {
+        const randomNumber = Math.floor(Math.random() * maxValue);
+        return randomNumber;
+      };
+      const getRandomColor = () =>
+        `rgb(${getRandomNumber()}, ${getRandomNumber()}, ${getRandomNumber()})`; // arrow function
+
+      const control = document.querySelector('.control');
+      let isStarted = false;
+      let intervalId;
+
+      const startInterval = () => {
+        let i = 0;
+        isStarted = true;
+        control.style.backgroundColor = getRandomColor();
+        intervalId = setInterval(() => {
+          i++;
+          control.style.backgroundColor = getRandomColor();
+          console.log('Seconds passed: ' + i);
+        }, 1000);
+        console.log('Started');
+      };
+
+      const stopInterval = () => {
+        isStarted = false;
+        clearInterval(intervalId);
+        control.style.backgroundColor = 'grey';
+        console.log('Stoped');
+      };
+      control.addEventListener('click', () => {
+        if (isStarted) {
+          stopInterval();
+        } else {
+          startInterval();
+        }
+      });
+    </script>
+  </body>
+</html>

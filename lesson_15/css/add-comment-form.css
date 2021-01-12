@@ -1,0 +1,38 @@
+.add-comment-form {
+  box-sizing: border-box;
+  max-width: 450px;
+  margin: 0 auto;
+  border: 2px solid #b4b4b4;
+  border-radius: 5px;
+  padding: 20px;
+}
+.add-comment-form__native-input {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  border: 2px solid #579e8f;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.add-comment-form__field {
+  margin-top: 20px;
+}
+.add-comment-form__field:first-of-type {
+  margin-top: 0;
+}
+.add-comment-form__btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.add-comment-form__btn_submit {
+  background-color: green;
+}
+.add-comment-form__btn_clear {
+  background-color: red;
+}
+.add-comment-form__btn_upload {
+  background-color: blue;
+}
+
+/*# sourceMappingURL=add-comment-form.css.map */

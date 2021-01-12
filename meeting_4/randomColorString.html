@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Нужно написть код который будет создавать случайный цвет в формате rgb(0,230,255)
+      const body = document.querySelector('body');
+      body.style.background =
+        'rgb(' +
+        Math.floor(Math.random() * 256) +
+        ',' +
+        Math.floor(Math.random() * 256) +
+        ',' +
+        Math.floor(Math.random() * 256) +
+        ')';
+    </script>
+  </body>
+</html>

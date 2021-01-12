@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /**
+       * @param {Array<number>} numbers принимает массив чисел
+       * @returns number сумму всех чисел в массиве
+       */
+      function total(numbers) {
+        return number.reduce((acc, number, i) => {
+          return acc + number;
+        }, 0);
+      } // for
+      const result = total([5, 5, 10]);
+      const result2 = total([100, 10]);
+      const result3 = total([500, 100, 3, 4, 6]);
+      console.log(result); // 20
+    </script>
+  </body>
+</html>

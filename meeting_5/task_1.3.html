@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /**
+       *
+       * @param {Array<string>} arrayWithStrings массив со строками
+       * @return {number} индекс найденого элемента в массиве или -1
+       */
+      function findStringIndex(strings, stringToFind) {
+        for (let i = 0; i < strings.length; i++) {
+          if (strings[i] === stringToFind) {
+            return i;
+          }
+        }
+        return -1;
+      }
+      const findStringIndex = (strings, stringToFind) =>
+        strings.indexOf(stringToFind);
+
+      console.log(findStringIndex(['hello', 'test', 'world'], 'test')); // вернет 2, для строки 'world' вернет 2,для строки 'hi' вернет -1
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+!function(){"use strict";var o=function(){var o=arguments.length>0&&void 0!==arguments[0]?arguments[0]:256,n=Math.floor(Math.random()*o);return n},n=o();console.log(n),console.log("rgb(".concat(o(),", ").concat(o(),", ").concat(o(),")"))}();

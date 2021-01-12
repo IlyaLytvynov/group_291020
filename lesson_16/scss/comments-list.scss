@@ -1,0 +1,15 @@
+.comments-list {
+  max-width: 450px;
+  background: rgba(121, 121, 121, 0.1);
+  padding: 20px;
+  margin: 0 auto;
+  &__item {
+    margin-top: 40px;
+  }
+}
+
+.comment {
+  &__avatar {
+    width: 100%;
+  }
+}

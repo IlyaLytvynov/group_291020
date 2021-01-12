@@ -1,0 +1,382 @@
+{
+  "items": [
+    {
+      "title": "HELLO"
+    }
+  ],
+  "advertisments": [
+    {
+      "title": "Time to Share: 6 for $3.99*",
+      "img": "images/comp_plate_promo1_wsmolg.png",
+      "description": "Lorem ipsum dolor sit amet. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut la bore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exefcitalion ullamoo laboris nisi ut aliquip ex ea commodo oonsequat.",
+      "note": "* At vero eos et accusamus et iusto odo dtgntsslmos duclmus qui blandltlis praesentlum voluptatum delenrtl atque corruptl quos doQres et quas molestlas exceptun sint occaecatl cupidrtate non pro v dent, slmllique sunt In culpa qui otflcia deserunt mollrtia anlmi. id est la bo aim et dolorum tuga.",
+      "id": 1
+    },
+    {
+      "title": "Rise 'n shine",
+      "img": "images/comp_plate_promo2_nlqjfe.png",
+      "description": "Lorem ipsum dolor sit amet. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut la bore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exefcitalion ullamoo laboris nisi ut aliquip ex ea commodo oonsequat.",
+      "note": "* At vero eos et accusamus et iusto odo dtgntsslmos duclmus qui blandltlis praesentlum voluptatum delenrtl atque corruptl quos doQres et quas molestlas exceptun sint occaecatl cupidrtate non pro v dent, slmllique sunt In culpa qui otflcia deserunt mollrtia anlmi. id est la bo aim et dolorum tuga.",
+      "id": 2
+    },
+    {
+      "title": "PM Snackers: Brownie Bites",
+      "img": "images/comp_plate_promo4_f87x7g.png",
+      "description": "Lorem ipsum dolor sit amet. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut la bore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exefcitalion ullamoo laboris nisi ut aliquip ex ea commodo oonsequat.",
+      "note": "* At vero eos et accusamus et iusto odo dtgntsslmos duclmus qui blandltlis praesentlum voluptatum delenrtl atque corruptl quos doQres et quas molestlas exceptun sint occaecatl cupidrtate non pro v dent, slmllique sunt In culpa qui otflcia deserunt mollrtia anlmi. id est la bo aim et dolorum tuga.",
+      "id": 3
+    },
+    {
+      "title": "PM Snackers: Brownie Bites 2",
+      "img": "images/comp_plate_promo3_wnp43x.png",
+      "description": "Lorem ipsum dolor sit amet. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut la bore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exefcitalion ullamoo laboris nisi ut aliquip ex ea commodo oonsequat.",
+      "note": "* At vero eos et accusamus et iusto odo dtgntsslmos duclmus qui blandltlis praesentlum voluptatum delenrtl atque corruptl quos doQres et quas molestlas exceptun sint occaecatl cupidrtate non pro v dent, slmllique sunt In culpa qui otflcia deserunt mollrtia anlmi. id est la bo aim et dolorum tuga.",
+      "id": 4
+    },
+    {
+      "author": "dfsdfsd",
+      "title": "sdfsdf",
+      "text": "sdfsdfsdf",
+      "createdAt": 1609263781099,
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "author": "ilya",
+      "title": "test",
+      "text": "asdasdasd",
+      "TEST": "12345",
+      "createdAt": 1609180786165,
+      "avatarUrl": "images/2020-12-28T18:39:46.161Z-santa-icon.png",
+      "id": 1
+    },
+    {
+      "author": "ilya",
+      "title": "Ho-Ho-Ho",
+      "text": "TEST",
+      "TEST": "12345",
+      "createdAt": 1609180890416,
+      "avatarUrl": "images/2020-12-28T18:41:30.414Z-comp_plate_promo1_wsmolg.png",
+      "id": 2
+    },
+    {
+      "author": "Santa",
+      "title": "Happy New Year!!",
+      "text": "Cheers!!",
+      "TEST": "12345",
+      "createdAt": 1609181164485,
+      "avatarUrl": "images/2020-12-28T18:46:04.482Z-photo-1546271876-af6caec5fae5.jpeg",
+      "id": 3
+    },
+    {
+      "author": "asdasd",
+      "title": "adsasd",
+      "text": "asdasd",
+      "createdAt": 1609181940711,
+      "avatarUrl": "images/2020-12-28T18:59:00.707Z-photo-1546271876-af6caec5fae5.jpeg",
+      "id": 4
+    },
+    {
+      "author": "ASYNC CALLBACK",
+      "title": "I'm ASYNC!",
+      "text": "RENDER ONE ASYNC!!!!",
+      "createdAt": 1609182051872,
+      "avatarUrl": "images/2020-12-28T19:00:51.867Z-photo-1602524816765-67313fa3ef54.jpeg",
+      "id": 5
+    },
+    {
+      "author": "ASYNC CALLBACK",
+      "title": "I'm ASYNC!",
+      "text": "RENDER ONE ASYNC!!!!",
+      "createdAt": 1609182060453,
+      "avatarUrl": "images/2020-12-28T19:01:00.450Z-photo-1602524816765-67313fa3ef54.jpeg",
+      "id": 6
+    },
+    {
+      "author": "ASYNC CALLBACK",
+      "title": "I'm ASYNC!",
+      "text": "RENDER ONE ASYNC!!!!",
+      "createdAt": 1609182071589,
+      "avatarUrl": "images/2020-12-28T19:01:11.587Z-photo-1602524816765-67313fa3ef54.jpeg",
+      "id": 7
+    },
+    {
+      "author": "Ilya",
+      "title": "test",
+      "text": "",
+      "createdAt": 1609263615237,
+      "avatarUrl": "images/2020-12-29T17:40:15.232Z-comp_plate_promo2_nlqjfe.png",
+      "id": 8
+    },
+    {
+      "author": "",
+      "title": "",
+      "text": "",
+      "createdAt": 1609263746041,
+      "avatarUrl": "images/2020-12-29T17:42:26.040Z-comp_plate_promo1_wsmolg.png",
+      "id": 10
+    },
+    {
+      "author": "Ilya",
+      "title": "Test",
+      "text": "asdasd",
+      "createdAt": 1609265028763,
+      "avatarUrl": "images/2020-12-29T18:03:48.762Z-santa-icon.png",
+      "id": 11
+    },
+    {
+      "author": "asdasd",
+      "title": "asdasd",
+      "text": "asdasdas",
+      "createdAt": 1609265246339,
+      "avatarUrl": "images/2020-12-29T18:07:26.338Z-comp_plate_promo2_nlqjfe.png",
+      "id": 41
+    },
+    {
+      "author": "Hello",
+      "title": "World",
+      "text": "asdasdasd",
+      "createdAt": 1609269759273,
+      "avatarUrl": "images/2020-12-29T19:22:39.270Z-comp_plate_promo3_wnp43x.png",
+      "id": 42
+    },
+    {
+      "author": "Test",
+      "title": "test",
+      "text": "asdasd",
+      "createdAt": 1609269813929,
+      "avatarUrl": "images/2020-12-29T19:23:33.927Z-photo-1546271876-af6caec5fae5.jpeg",
+      "id": 43
+    },
+    {
+      "author": "1234",
+      "title": "1234",
+      "text": "asdasd",
+      "createdAt": 1609269852142,
+      "avatarUrl": "images/2020-12-29T19:24:12.141Z-comp_plate_promo1_wsmolg.png",
+      "id": 44
+    },
+    {
+      "author": "1234",
+      "title": "1234",
+      "text": "asdasd",
+      "createdAt": 1609269931446,
+      "avatarUrl": "images/2020-12-29T19:25:31.445Z-comp_plate_promo1_wsmolg.png",
+      "id": 45
+    }
+  ],
+  "movies": [
+    {
+      "title": "Fantastic beasts and where to find them",
+      "description": "Fantastic Beasts and Where to Find Them is a 2016 fantasy film directed by David Yates. A joint British and American production, it is a spin-off and prequel to the Harry Potter film series, and is produced and written by J. K. Rowling in her screenwriting debut, inspired by her 2001 guide book of the same name. The film features an ensemble cast that includes Eddie Redmayne, Katherine Waterston, Dan Fogler, Alison Sudol, Ezra Miller, Samantha Morton, Jon Voight, Carmen Ejogo, and Colin Farrell. It is the first installment in the Fantastic Beasts film series, and ninth overall in the Wizarding World franchise, that began with the Harry Potter films.",
+      "rating": "4.7",
+      "preview": "https://res.cloudinary.com/dx4wkpab8/image/upload/v1574199507/movies/bitmap_2x_qt5gqd.jpg",
+      "genre": "fantasy"
+    },
+    {
+      "title": "Justice League",
+      "description": "ustice League is a 2017 American superhero film based on the DC Comics superhero team of the same name, distributed by Warner Bros. Pictures. It is the follow-up to 2016's Batman v Superman: Dawn of Justice and the fifth installment in the DC Extended Universe (DCEU).[5][6][7] The film is directed by Zack Snyder, written by Chris Terrio and Joss Whedon, and features an ensemble cast that includes Ben Affleck, Henry Cavill, Gal Gadot, Ezra Miller, Jason Momoa, Ray Fisher, Amy Adams, Jeremy Irons, Diane Lane, Connie Nielsen, and J. K. Simmons. In the film, Batman and Wonder Woman recruit The Flash, Aquaman, and Cyborg after Superman's death to save the world from the catastrophic threat of Steppenwolf and his army of Parademons.",
+      "rating": "3.9",
+      "preview": "https://res.cloudinary.com/dx4wkpab8/image/upload/v1574199102/movies/bitmap_qm5atv.jpg",
+      "genre": "comics"
+    },
+    {
+      "title": "Beauty and the beast",
+      "description": "",
+      "rating": "3.9",
+      "preview": "https://res.cloudinary.com/dx4wkpab8/image/upload/v1574198944/movies/bitmap_ocrjt9.jpg",
+      "genre": "fairytail"
+    }
+  ],
+  "shop": {
+    "products": [
+      {
+        "id": 1,
+        "title": "I'm product ",
+        "price": "150",
+        "currency": "USD",
+        "discount": "15",
+        "additionalInfo": {
+          "inStock": 20,
+          "sale": true,
+          "colors": [
+            {
+              "descrition": "Orange",
+              "value": "#25503c"
+            },
+            {
+              "descrition": "Pink",
+              "value": "rgb(255, 192, 203)"
+            }
+          ]
+        },
+        "description": "Lorem ipsum dolor sit amet. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut la bore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exefcitalion ullamoo laboris nisi ut aliquip ex ea commodo oonsequat.",
+        "media": [
+          {
+            "fullUrl": "https://static.wixstatic.com/media/45d10e_dd5d9543998c4c0f9ecf120fac20ffb0~mv2.jpg/v1/fill/w_436,h_436,al_c,q_80,usm_0.66_1.00_0.01/45d10e_dd5d9543998c4c0f9ecf120fac20ffb0~mv2.jpg"
+          },
+          {
+            "fullUrl": "https://static.wixstatic.com/media/45d10e_35c84fb1d48540f1886b2ceb7a342c37~mv2_d_3500_1968_s_2.jpg/v1/fill/w_436,h_436,al_c,q_80,usm_0.66_1.00_0.01/45d10e_35c84fb1d48540f1886b2ceb7a342c37~mv2_d_3500_1968_s_2.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "I'm product ",
+        "price": "120",
+        "currency": "USD",
+        "discount": "20",
+        "additionalInfo": {
+          "inStock": 5,
+          "sale": false,
+          "colors": [
+            {
+              "description": "Light Purple",
+              "value": "#e9cbf6"
+            }
+          ]
+        },
+        "description": "Lorem ipsum dolor sit amet. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut la bore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exefcitalion ullamoo laboris nisi ut aliquip ex ea commodo oonsequat.",
+        "media": [
+          {
+            "fullUrl": "https://static.wixstatic.com/media/45d10e_15641be40e0c43d89f5426f8949b51bd~mv2.jpg/v1/fill/w_436,h_436,al_c,q_80,usm_0.66_1.00_0.01/45d10e_15641be40e0c43d89f5426f8949b51bd~mv2.jpg"
+          },
+          {
+            "fullUrl": "https://static.wixstatic.com/media/45d10e_0a7831138003425684827b5eedb8813a~mv2_d_3500_1968_s_2.jpg/v1/fill/w_436,h_436,al_c,q_80,usm_0.66_1.00_0.01/45d10e_0a7831138003425684827b5eedb8813a~mv2_d_3500_1968_s_2.jpg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "I'm product 3",
+        "price": "110",
+        "currency": "USD",
+        "discount": "0",
+        "additionalInfo": {
+          "inStock": 1,
+          "sale": false,
+          "colors": [
+            {
+              "description": "Light Purple",
+              "value": "#e9cbf6"
+            }
+          ]
+        },
+        "description": "Lorem ipsum dolor sit amet. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut la bore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exefcitalion ullamoo laboris nisi ut aliquip ex ea commodo oonsequat.",
+        "media": [
+          {
+            "fullUrl": "https://static.wixstatic.com/media/45d10e_15641be40e0c43d89f5426f8949b51bd~mv2.jpg/v1/fill/w_436,h_436,al_c,q_80,usm_0.66_1.00_0.01/45d10e_15641be40e0c43d89f5426f8949b51bd~mv2.jpg"
+          },
+          {
+            "fullUrl": "https://static.wixstatic.com/media/45d10e_0a7831138003425684827b5eedb8813a~mv2_d_3500_1968_s_2.jpg/v1/fill/w_436,h_436,al_c,q_80,usm_0.66_1.00_0.01/45d10e_0a7831138003425684827b5eedb8813a~mv2_d_3500_1968_s_2.jpg"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "I'm product 1",
+        "price": "250",
+        "currency": "USD",
+        "discount": "50",
+        "additionalInfo": {
+          "inStock": 10,
+          "sale": true,
+          "colors": [
+            {
+              "description": "Light Purple",
+              "value": "#e9cbf6"
+            }
+          ]
+        },
+        "description": "Lorem ipsum dolor sit amet. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut la bore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exefcitalion ullamoo laboris nisi ut aliquip ex ea commodo oonsequat.",
+        "media": [
+          {
+            "fullUrl": "https://static.wixstatic.com/media/45d10e_15641be40e0c43d89f5426f8949b51bd~mv2.jpg/v1/fill/w_436,h_436,al_c,q_80,usm_0.66_1.00_0.01/45d10e_15641be40e0c43d89f5426f8949b51bd~mv2.jpg"
+          },
+          {
+            "fullUrl": "https://static.wixstatic.com/media/45d10e_0a7831138003425684827b5eedb8813a~mv2_d_3500_1968_s_2.jpg/v1/fill/w_436,h_436,al_c,q_80,usm_0.66_1.00_0.01/45d10e_0a7831138003425684827b5eedb8813a~mv2_d_3500_1968_s_2.jpg"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "I'm product 5",
+        "price": "50",
+        "currency": "USD",
+        "discount": "12",
+        "additionalInfo": {
+          "inStock": 16,
+          "sale": true,
+          "colors": [
+            {
+              "description": "Light Purple",
+              "value": "#e9cbf6"
+            }
+          ]
+        },
+        "description": "Lorem ipsum dolor sit amet. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut la bore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exefcitalion ullamoo laboris nisi ut aliquip ex ea commodo oonsequat.",
+        "media": [
+          {
+            "fullUrl": "https://static.wixstatic.com/media/45d10e_15641be40e0c43d89f5426f8949b51bd~mv2.jpg/v1/fill/w_436,h_436,al_c,q_80,usm_0.66_1.00_0.01/45d10e_15641be40e0c43d89f5426f8949b51bd~mv2.jpg"
+          },
+          {
+            "fullUrl": "https://static.wixstatic.com/media/45d10e_0a7831138003425684827b5eedb8813a~mv2_d_3500_1968_s_2.jpg/v1/fill/w_436,h_436,al_c,q_80,usm_0.66_1.00_0.01/45d10e_0a7831138003425684827b5eedb8813a~mv2_d_3500_1968_s_2.jpg"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "I'm product 6",
+        "price": "150",
+        "currency": "USD",
+        "discount": "0",
+        "additionalInfo": {
+          "inStock": 26,
+          "sale": true,
+          "colors": [
+            {
+              "description": "Light Purple",
+              "value": "#e9cbf6"
+            }
+          ]
+        },
+        "description": "Lorem ipsum dolor sit amet. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut la bore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exefcitalion ullamoo laboris nisi ut aliquip ex ea commodo oonsequat.",
+        "media": [
+          {
+            "fullUrl": "https://static.wixstatic.com/media/45d10e_15641be40e0c43d89f5426f8949b51bd~mv2.jpg/v1/fill/w_436,h_436,al_c,q_80,usm_0.66_1.00_0.01/45d10e_15641be40e0c43d89f5426f8949b51bd~mv2.jpg"
+          },
+          {
+            "fullUrl": "https://static.wixstatic.com/media/45d10e_0a7831138003425684827b5eedb8813a~mv2_d_3500_1968_s_2.jpg/v1/fill/w_436,h_436,al_c,q_80,usm_0.66_1.00_0.01/45d10e_0a7831138003425684827b5eedb8813a~mv2_d_3500_1968_s_2.jpg"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "I'm product 7",
+        "price": "157",
+        "currency": "USD",
+        "discount": "20",
+        "additionalInfo": {
+          "inStock": 26,
+          "sale": true,
+          "colors": [
+            {
+              "description": "Light Purple",
+              "value": "#e9cbf6"
+            }
+          ]
+        },
+        "description": "Lorem ipsum dolor sit amet. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut la bore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exefcitalion ullamoo laboris nisi ut aliquip ex ea commodo oonsequat.",
+        "media": [
+          {
+            "fullUrl": "https://static.wixstatic.com/media/45d10e_15641be40e0c43d89f5426f8949b51bd~mv2.jpg/v1/fill/w_436,h_436,al_c,q_80,usm_0.66_1.00_0.01/45d10e_15641be40e0c43d89f5426f8949b51bd~mv2.jpg"
+          },
+          {
+            "fullUrl": "https://static.wixstatic.com/media/45d10e_0a7831138003425684827b5eedb8813a~mv2_d_3500_1968_s_2.jpg/v1/fill/w_436,h_436,al_c,q_80,usm_0.66_1.00_0.01/45d10e_0a7831138003425684827b5eedb8813a~mv2_d_3500_1968_s_2.jpg"
+          }
+        ]
+      }
+    ]
+  }
+}

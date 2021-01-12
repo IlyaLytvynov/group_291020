@@ -1,0 +1,110 @@
+@mixin toggleBar {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  transition: all 0.1s;
+}
+
+.global-header {
+  background: #1b1b1b;
+  height: 60px;
+  &__content {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+  }
+}
+
+.navbar {
+  display: flex;
+  &__toggle {
+    display: none;
+    position: relative;
+    background: transparent;
+    width: 25px;
+    height: 25px;
+
+    &::after {
+      @include toggleBar;
+      top: #{calc(33.3333% - 2px)};
+    }
+    &::before {
+      @include toggleBar;
+      bottom: #{calc(33.3333% - 2px)};
+    }
+  }
+
+  &__menu {
+    display: flex;
+  }
+  &__item {
+    display: flex;
+    align-items: stretch;
+    margin-left: 23px;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .global-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .navbar {
+    align-items: center;
+    &__toggle {
+      display: block;
+    }
+
+    &__menu {
+      height: #{calc(100vh - 60px)};
+      background-color: rgb(36, 36, 36);
+      position: absolute;
+      width: 250px;
+      top: 60px;
+      left: 0;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      transform: translateX(-100%);
+      visibility: hidden;
+      transition: all 0.2s;
+    }
+    &__item {
+      padding: 15px 0;
+      margin: 0;
+    }
+    &_active {
+      .navbar {
+        &__menu {
+          transform: translateX(0);
+          visibility: visible;
+        }
+        &__toggle {
+          &::after {
+            top: calc(50% - 1px);
+            transform: rotate(45deg);
+          }
+          &::before {
+            bottom: calc(50% - 1px);
+            transform: rotate(-45deg);
+          }
+        }
+      }
+    }
+  }
+}

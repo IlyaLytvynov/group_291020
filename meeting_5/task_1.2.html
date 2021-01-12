@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /**
+       * @param {Array} массив с разными значениями и типами
+       * @return {Array<number>} возвращает массив с числами из исходного
+       */
+      function filterNumbers(arrayWithStringsAndNumbers) {
+        const onlyNumbers = [];
+        // цикл >>> onlyNumber.push()
+        for (let i = 0; i < arrayWithStringsAndNumbers.length; i++) {
+          console.log(typeof arrayWithStringsAndNumbers[i]);
+          if (typeof arrayWithStringsAndNumbers[i] === 'number') {
+            onlyNumbers.push(arrayWithStringsAndNumbers[i]);
+          }
+        }
+        return onlyNumbers;
+      }
+
+      const onlyNumbers = filterNumbers([
+        'asd',
+        1,
+        true,
+        2,
+        3,
+        {},
+        'b',
+        'sadasd',
+        4,
+      ]); // результат должен быть [1,2,3, 4]
+    </script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+:root {
+  --danger-color: rgb(177, 54, 54);
+  --danger-color-active: rgb(219, 47, 47);
+  --success-color: rgb(54, 177, 70);
+  --success-color-active: rgb(65, 218, 86);
+  --warn-color: rgb(243, 211, 69);
+  --warn-color-active: rgb(255, 208, 0);
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid transparent;
+  font-size: 16px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.btn_success {
+  background-color: var(--success-color);
+  border-color: var(--success-color);
+}
+
+.btn_success:hover {
+  background-color: var(--success-color-active);
+  border-color: var(--success-color-active);
+}
+
+.btn_danger {
+  background-color: var(--danger-color);
+  border-color: var(--danger-color);
+}
+
+.btn_danger:hover {
+  background-color: var(--danger-color-active);
+  border-color: var(--danger-color-active);
+}
+
+.btn_warn {
+  background-color: var(--warn-color);
+  border-color: var(--warn-color);
+}
+
+.btn_warn:hover {
+  background-color: var(--warn-color-active);
+  border-color: var(--warn-color-active);
+}
