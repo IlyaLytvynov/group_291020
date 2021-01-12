@@ -1,7 +1,7 @@
 import { AddCommentForm } from './add-comment-form.js';
 import { CommentsList } from './comments-list.js';
 import { Pagination } from './pagination.js';
-const apiURL = 'http://localhost:4000';
+const apiURL = 'https://boring-fe.herokuapp.com/';
 
 export class CommentsPage {
   constructor(root) {
