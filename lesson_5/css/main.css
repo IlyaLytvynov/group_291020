@@ -2,6 +2,7 @@
   max-width: 960px;
   display: flex;
   padding-top: 86px;
+  margin: 0 auto;
 }
 
 .avatar {
