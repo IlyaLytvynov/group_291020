@@ -2,6 +2,7 @@
   "name": "lesson_18",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ilyalytvynov.github.io/group_291020/lesson_18",
   "dependencies": {
     "@babel/core": "7.12.3",
     "@pmmmwh/react-refresh-webpack-plugin": "0.4.2",
